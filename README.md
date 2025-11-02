@@ -89,26 +89,19 @@ This plugin registers PlaceholderAPI placeholders under the `krakenlevels` ident
 | `%krakenlevels_displaylevel%` | Display name of current level (from config) |
 | `%krakenlevels_displaynextlevel%` | Display name of next level (from config) |
 | `%krakenlevels_balance%` | Player balance (Vault required) |
-
 ## Notes
-- The plugin is actively tested on LeafMC 1.21.X
-- Older versions are not supported and won’t be backported (e.g., 1.19, 1.18, etc.)
-- If you want add support for older versions, consider forking the project or contributing.
+The plugin is actively tested on LeafMC 1.21.8 in a small network environment.
 
+I maintain a separate private version of this plugin for my own server and don’t plan to spend time maintaining the public release. This repository is an open‑source gift to the community—if you need support for older Minecraft versions, please fork the project or contribute a PR. I won’t add downgrades/backports (1.19, 1.18, etc.) because targeting older APIs would significantly alter the plugin’s design and reliability.
 ## Attribution
-
 - Original plugin by Aglerr
 - If you create a fork or a plugin based on this work, please include a clear mention of:
   - Aglerr as the original creator, and
   - This fork (KrakenLevels) as your base
 
 Example mention: "Based on KrakenLevels (originally by Aglerr)"
-
 ## Contributing
-
 Contributions are welcome! Feel free to open issues or pull requests.
-
 ## License
-
 Licensed under AGPL-3.0. You must preserve copyright and attribution
 notices, and make source changes available when publicly running the plugin.
