@@ -92,7 +92,7 @@ This plugin registers PlaceholderAPI placeholders under the `krakenlevels` ident
 ## Notes
 The plugin is actively tested on LeafMC 1.21.8 in a small network environment.
 
-I maintain a separate private version of this plugin for my own server and don’t plan to spend time maintaining the public release. This repository is an open‑source gift to the community—if you need support for older Minecraft versions, please fork the project or contribute a PR. I won’t add downgrades/backports (1.19, 1.18, etc.) because targeting older APIs would significantly alter the plugin’s design and reliability.
+I maintain a separate private version of this plugin for my own server and don’t plan to spend time maintaining the public release. This repository is an open‑source gift to the community. If you need support for older Minecraft versions, please fork the project or contribute a PR. I won’t add downgrades/backports (1.19, 1.18, etc.) because targeting older APIs would significantly alter the plugin’s design and reliability.
 ## Attribution
 - Original plugin by Aglerr
 - If you create a fork or a plugin based on this work, please include a clear mention of:
