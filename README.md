@@ -18,6 +18,13 @@ Requirements:
 - Vault (optionnal)
 - Essentials like plugin (CMI, EssentialsX, etc).
 
+### Why MongoDB (not MySQL)?
+
+- Player data is a single, evolving document (level, mission progress, metadata). A document store maps naturally to this shape without rigid table joins.
+- Atomic upserts and partial updates simplify writes and reduce race conditions for async tasks.
+- Easier cross‑server setups and horizontal scaling when you grow; you don’t need schema migrations for new mission fields.
+- Lower maintenance: adding mission types or fields doesn’t require altering SQL schemas.
+
 ## Quick setup
 
 1) Download the plugin jar and drop it into `plugins/`
