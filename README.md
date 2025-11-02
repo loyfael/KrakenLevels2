@@ -53,8 +53,6 @@ Other files to adjust:
 - `materials.yml` – material/entity display names
 
 ## Commands (basic)
-
-- `/levels` – open the levels GUI
 - `/mission` – mission menu and admin tools (see in-game help)
 
 Permissions are standard and follow the `krakenlevels.*` pattern.
