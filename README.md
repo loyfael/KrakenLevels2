@@ -13,6 +13,10 @@ Originally created by Aglerr. This fork modernizes the codebase and configuratio
 
 Requirements:
 - Java 21 (required by Paper 1.21)
+- A MongoDB Database. (Yes i don't want use MySQL).
+- PlaceholderAPI
+- Vault (optionnal)
+- Essentials like plugin (CMI, EssentialsX, etc).
 
 ## Quick setup
 
