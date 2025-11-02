@@ -69,7 +69,6 @@ Other files to adjust:
 Permissions are standard and follow the `krakenlevels.*` pattern.
 
 ## Placeholders
-
 This plugin registers PlaceholderAPI placeholders under the `krakenlevels` identifier.
 
 | Placeholder | Description |
@@ -93,6 +92,7 @@ This plugin registers PlaceholderAPI placeholders under the `krakenlevels` ident
 The plugin is actively tested on LeafMC 1.21.8 in a small network environment.
 
 I maintain a separate private version of this plugin for my own server and don’t plan to spend time maintaining the public release. This repository is an open‑source gift to the community—if you need support for older Minecraft versions, please fork the project or contribute a PR. I won’t add downgrades/backports (1.19, 1.18, etc.) because targeting older APIs would significantly alter the plugin’s design and reliability.
+
 ## Attribution
 - Original plugin by Aglerr
 - If you create a fork or a plugin based on this work, please include a clear mention of:
@@ -100,6 +100,14 @@ I maintain a separate private version of this plugin for my own server and don�
   - This fork (KrakenLevels) as your base
 
 Example mention: "Based on KrakenLevels (originally by Aglerr)"
+
+## How obtain .jar file ?
+- Clone the repository
+- Open the project in your favorite IDE (IntelliJ, Eclipse, etc)
+- Build the project using Maven (`mvn clean package`)
+- Find the .jar file in the `target` directory
+- Copy the .jar file to your server's plugins folder
+- Restart the server to load the plugin.
 ## Contributing
 Contributions are welcome! Feel free to open issues or pull requests.
 ## License
